@@ -34,8 +34,8 @@ export default function Navbar() {
       <header className={`fixed top-0 w-full z-40 transition-all duration-300 ${isScrolled ? 'bg-darker/90 backdrop-blur-md border-b border-white/10 py-3' : 'bg-transparent py-5'}`}>
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 z-50">
-            <span className="font-display text-2xl md:text-3xl font-bold tracking-tight text-white drop-shadow-md">
-              Food Nest <span className="text-gold italic">Restaurant</span>
+            <span className="brand-text text-3xl md:text-4xl px-2 py-1 bg-zinc-900/40 rounded border border-white/5 border-b-black/50 shadow-inner">
+              FOOD NEST RESTAURANT
             </span>
           </Link>
 

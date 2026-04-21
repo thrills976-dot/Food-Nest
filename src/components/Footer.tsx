@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-12 text-sm">
         <div className="space-y-4">
           <Link to="/" className="inline-block flex items-center space-x-2">
-             <span className="font-display text-2xl font-bold tracking-tight text-white">Food Nest <span className="text-gold italic">Restaurant</span></span>
+             <span className="brand-text text-2xl font-bold tracking-tight">FOOD NEST RESTAURANT</span>
           </Link>
           <p className="text-text-muted leading-relaxed">
             Experience the rich, authentic taste of West African dishes, premium grilled steaks, seafood, and international comfort meals right here in Harare.
